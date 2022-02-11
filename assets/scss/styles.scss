@@ -1,7 +1,45 @@
 @import 'fonts';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: bisque;
+  margin: 0;
+  padding: 0;
+  font-family: Jost, serif;
+}
+
+.container {
+  width: 1280px;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url(../images/Борода1.png);
+  background-size: cover;
+}
+
+.header__description {
+  position: absolute;
+  left: 50%;
+  bottom: -480px;
+  padding: 50px 155px;
+  width: 1020px;
+  background-color: #fff;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 24px;
+  transform: translateX(-50%);
+}
+
+.header__description__icon {
+  margin-bottom: 45px;
+}
+
+.main {
+  height: 100vh;
 }
 
 @import 'media';
