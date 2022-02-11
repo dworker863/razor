@@ -42,7 +42,7 @@ body {
   }
 }
 
-.header__description__icon {
+.header__icon {
   margin-bottom: 45px;
 }
 
@@ -54,6 +54,144 @@ body {
   height: 100vh;
   background-image: url(../images/Триммер.png);
   background-position: center 0;
+}
+
+.promotion-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 532px;
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.promotion-description__info {
+  padding: 13px 50px;
+}
+
+.promotion-description__circle {
+  z-index: 1;
+  position: absolute;
+  top: -115px;
+  right: -115px;
+  width: 230px;
+  min-height: 230px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.promotion-description__bonus-amount {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.promotion-description__old-price {
+  position: relative;
+  font-family: Jost, serif;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: #a2a2a2;
+}
+
+.promotion-description__line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 185px;
+  height: 6px;
+  background-image: url(../images/line.png);
+  transform: translate(-50%, -50%);
+}
+
+.promotion-description__new-price {
+  font-family: Jost, serif;
+  font-weight: 600;
+  font-size: 90px;
+  text-align: center;
+  color: #b4976d;
+}
+
+.halfStyle {
+  position: relative;
+  display: inline-block;
+  margin-left: -25px;
+  font-size: 90px; /* or any font size will work */
+  color: transparent; /* hide the base character */
+  overflow: hidden;
+  white-space: pre; /* to preserve the spaces from collapsing */
+
+  &:first-child {
+    margin-left: 0px;
+  }
+
+  &:nth-child(3) {
+    margin-left: -40px;
+  }
+}
+
+.halfStyle:before {
+  /* creates the top part */
+  display: block;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  height: 50%;
+  content: attr(data-content); /* dynamic content for the pseudo element */
+  overflow: hidden;
+  pointer-events: none; /* so the base char is selectable by mouse */
+  color: #dab98b; /* for demo purposes */
+}
+
+.halfStyle:after {
+  /* creates the bottom part */
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  height: 100%;
+  content: attr(data-content); /* dynamic content for the pseudo element */
+  overflow: hidden;
+  pointer-events: none; /* so the base char is selectable by mouse */
+  color: #b4976d; /* for demo purposes */
+}
+
+.currency {
+  margin-top: -70px;
+  margin-bottom: 0px;
+  font-size: 36px;
+  color: #000;
+}
+
+.promotion-description__duration {
+  font-weight: 600;
+  text-align: center;
+}
+
+.promotion-description__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+}
+
+.promotion-description__text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.promotion-description__bg {
+  margin-top: auto;
+  height: 200px;
+  background-image: url(../images/USD_проектор_в_машине.png);
+  background-size: cover;
+  background-position: center;
 }
 
 @import 'media';

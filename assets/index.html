@@ -10,7 +10,7 @@
   <body>
     <header class="header">
       <div class="header__description">
-        <div class="header__description__icon">
+        <div class="header__icon">
           <img src="images/header-icon.png" alt="Иконка" />
         </div>
         <p>
@@ -29,9 +29,42 @@
     <main class="main">
       <section class="promotions">
         <div class="promotion-description">
-          <a href="#" class="btn-order">Заказать</a>
+          <div class="promotion-description__info">
+            <div class="promotion-description__circle"></div>
+            <div class="promotion-description__bonus-amount">-50%</div>
+            <div class="promotion-description__old-price">
+              35.980
+              <div class="promotion-description__line"></div>
+            </div>
+            <div class="promotion-description__new-price">
+              <span class="halfStyle" data-content="1">1</span>
+              <span class="halfStyle" data-content="7">7</span>
+              <span class="halfStyle" data-content=".">.</span>
+              <span class="halfStyle" data-content="9">9</span>
+              <span class="halfStyle" data-content="9">9</span>
+              <span class="halfStyle" data-content="0">0</span>
+              <p class="currency">тенге</p>
+            </div>
+            <div class="promotion-description__duration">
+              Акция действует с 6.02.2022 до 16.02.2022
+            </div>
+            <div class="promotion-description__conditions">
+              <h3 class="promotion-description__title">УСЛОВИЯ АКЦИИ</h3>
+            </div>
+            <p class="promotion-description__text">
+              При покупке <b>бритвы-триммера</b>, получите
+              <b>USD проектор “Звездное небо”</b> в подарок бесплатно!
+            </p>
+          </div>
+          <div class="promotion-description__bg"></div>
+          <!-- <a href="#" class="btn-order">Заказать</a> -->
         </div>
       </section>
+      <p>Single Characters:</p>
+      <span class="halfStyle" data-content="X">X</span>
+      <span class="halfStyle" data-content="Y">Y</span>
+      <span class="halfStyle" data-content="Z">Z</span>
+      <span class="halfStyle" data-content="A">A</span>
     </main>
   </body>
   <script src="js/scripts.min.js"></script>
