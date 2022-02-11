@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+  .header__description {
+    bottom: -390px;
+    width: 700px;
+    padding: 50px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .header__description__icon img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__description {
+    bottom: -450px;
+    width: 500px;
+  }
+
+  .header__description__icon img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__description {
+    bottom: -420px;
+    width: 320px;
+    padding: 50px 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .header__description__icon img {
+    width: 60px;
+  }
+} ;

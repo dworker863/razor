@@ -17,22 +17,29 @@ body {
 .header {
   position: relative;
   height: 100vh;
-  margin-bottom: 350px;
+  margin-bottom: 320px;
   background-image: url(../images/Борода1.png);
   background-size: cover;
+  background-position: center 0;
 }
 
 .header__description {
   position: absolute;
   left: 50%;
-  bottom: -460px;
+  bottom: -445px;
   padding: 50px 120px;
+  padding-bottom: 10px;
   width: 1020px;
   background-color: #fff;
   border: 2px solid black;
   text-align: center;
   font-size: 24px;
   transform: translateX(-50%);
+
+  p {
+    max-width: 740px;
+    margin-bottom: 40px;
+  }
 }
 
 .header__description__icon {
