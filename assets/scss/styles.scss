@@ -17,6 +17,7 @@ body {
 .header {
   position: relative;
   height: 100vh;
+  margin-bottom: 350px;
   background-image: url(../images/Борода1.png);
   background-size: cover;
 }
@@ -24,8 +25,8 @@ body {
 .header__description {
   position: absolute;
   left: 50%;
-  bottom: -480px;
-  padding: 50px 155px;
+  bottom: -460px;
+  padding: 50px 120px;
   width: 1020px;
   background-color: #fff;
   border: 2px solid black;
@@ -38,8 +39,13 @@ body {
   margin-bottom: 45px;
 }
 
-.main {
+.brand {
+  font-weight: bold;
+}
+
+.promotions {
   height: 100vh;
+  background-image: url(../images/Триммер.png);
 }
 
 @import 'media';
