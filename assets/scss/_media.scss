@@ -10,6 +10,10 @@
   .header__description__icon img {
     width: 80px;
   }
+
+  .promotions {
+    background-position: 40% 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -20,6 +24,10 @@
 
   .header__description__icon img {
     width: 80px;
+  }
+
+  .promotions {
+    background-position: 30% 0;
   }
 }
 
