@@ -54,7 +54,7 @@ body {
 .promotions {
   box-sizing: content-box;
   position: relative;
-  min-height: 100vh;
+  min-height: 1000px;
   padding-bottom: 100px;
   background-image: url(../images/Триммер.png);
   background-size: cover;
@@ -65,9 +65,10 @@ body {
 .promotion-description__wrapper {
   position: absolute;
   top: 200px;
-  right: 23%;
+  left: 50%;
   width: max-content;
   background-color: #fff;
+  transform: translateX(-4%);
 }
 
 .promotion-description {
@@ -232,14 +233,6 @@ body {
   position: absolute;
   bottom: -100px;
   right: -60px;
-}
-
-.relative {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  // background-color: red;
 }
 
 @import 'media';
