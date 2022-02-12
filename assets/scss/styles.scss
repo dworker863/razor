@@ -244,8 +244,51 @@ body {
   }
 }
 
-.slider-container {
+.slider-view__container {
   padding: 0 125px;
+}
+
+.slider-specifications {
+  min-height: 100vh;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url(../images/Борода2.png);
+  background-size: cover;
+  background-position: 50% 0;
+}
+
+.slider-specifications__title {
+  margin-bottom: 120px;
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.slider-specifications__container {
+  padding: 0 20px;
+}
+
+.slider-specifications__card {
+  padding: 0 5px;
+  background-color: #101010;
+  color: #fff;
+
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+.card__title {
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.slider-specification__desc {
+  min-height: 180px;
+  margin-left: 15px;
+  margin-top: 0;
 }
 
 @import 'media';
