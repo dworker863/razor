@@ -22,7 +22,10 @@ function html() {
 
 function styles() {
   return gulp
-    .src(['./assets/scss/**/*.scss'])
+    .src([
+      'assets/libs/owlCarousel/dist/assets/owl.carousel.min.css',
+      './assets/scss/**/*.scss',
+    ])
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(concat('styles.min.css'))
@@ -35,7 +38,11 @@ function styles() {
 
 function scripts() {
   return gulp
-    .src(['./assets/js/common.js'])
+    .src([
+      'node_modules/jquery/dist/jquery.min.js',
+      './assets/js/common.js',
+      'assets/libs/owlCarousel/dist/owl.carousel.min.js',
+    ])
     .pipe(sourcemaps.init())
     .pipe(concat('scripts.min.js'))
     .pipe(uglify())

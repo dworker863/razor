@@ -12,6 +12,7 @@ body {
 
 .container {
   width: 1280px;
+  margin: 0 auto;
 }
 
 .header {
@@ -233,6 +234,18 @@ body {
   position: absolute;
   bottom: -100px;
   right: -60px;
+}
+
+.slider-view {
+  padding: 70px 0;
+
+  img {
+    width: 300px;
+  }
+}
+
+.slider-container {
+  padding: 0 125px;
 }
 
 @import 'media';
