@@ -329,6 +329,28 @@ input {
   margin-top: 0;
 }
 
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.owl-prev,
+.owl-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+.owl-prev {
+  margin-right: 40px;
+}
+
 .order {
   padding: 120px 0;
   background-color: #f3f3f3;
