@@ -312,8 +312,10 @@ input {
 }
 
 .order__wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .order-promotion-description__wrapper {
@@ -330,7 +332,7 @@ input {
   font-size: 48px;
   font-weight: 600;
   background-color: #dab98b;
-  transform: translate(-50%, -50%);
+  transform: translate(-40%, -50%);
 }
 
 .order__form {
