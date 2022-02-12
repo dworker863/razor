@@ -22,15 +22,23 @@
   .slider-specifications__container {
     padding: 0 110px;
   }
-}
 
-@media (max-width: 1200px) {
   .gadget {
     display: none;
   }
 
+  .footer__wrapper {
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 1200px) {
   .order-promotion-description__wrapper {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
+
+    .gadget {
+      display: block;
+    }
   }
 
   .promo {
@@ -39,6 +47,10 @@
 
   .order__form {
     min-height: 750px;
+  }
+
+  .footer__wrapper {
+    padding: 0 10px;
   }
 }
 
@@ -172,6 +184,20 @@
   .slider-specifications__title {
     font-size: 36px;
   }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer__wrapper div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @media (max-width: 850px) {
@@ -245,6 +271,12 @@
 
   .promo {
     display: none;
+  }
+
+  .order-promotion-description__wrapper {
+    .gadget {
+      display: none;
+    }
   }
 }
 

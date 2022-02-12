@@ -362,4 +362,26 @@ input {
   transform: translateX(-50%);
 }
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 16px;
+  color: #b2b2b2;
+  background-color: #000;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 155px;
+}
+
+.contacts__title {
+  color: #626262;
+}
+
 @import 'media';
