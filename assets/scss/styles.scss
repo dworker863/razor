@@ -23,6 +23,10 @@ input {
     font-size: 24px;
     color: #93928c;
   }
+
+  &:focus {
+    border-bottom: 10px solid #b88f52;
+  }
 }
 
 .container {
@@ -33,11 +37,30 @@ input {
 .header {
   z-index: 1;
   position: relative;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  height: 1140px;
   margin-bottom: 320px;
   background-image: url(../images/Борода1.png);
   background-size: cover;
   background-position: center 0;
+}
+
+.header__text {
+  margin-top: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4.5px;
+}
+
+.header__title {
+  margin-bottom: 0;
+  font-size: 72px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .header__description {
