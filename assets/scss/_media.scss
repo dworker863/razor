@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   .container {
     width: 1140px;
   }
@@ -30,9 +30,16 @@
   .footer__wrapper {
     padding: 0 80px;
   }
+
+  .owl-nav {
+    padding: 0 90px;
+  }
 }
 
 @media (max-width: 1200px) {
+  .header {
+    background-image: url(../images/Борода1-mobile.jpg);
+  }
   .order-promotion-description__wrapper {
     margin-bottom: 120px;
 
@@ -52,11 +59,9 @@
   .footer__wrapper {
     padding: 0 10px;
   }
-}
 
-@media (max-width: 1200px) {
   .container {
-    width: 1040px;
+    width: 960px;
   }
 
   .slider-view__container {
@@ -66,15 +71,18 @@
   .slider-specifications__container {
     padding: 0 20px;
   }
-}
 
-@media (max-width: 1200px) {
   .container {
     width: 960px;
   }
 
   .slider-view__container {
     padding: 0 140px;
+  }
+
+  .owl-nav {
+    left: -10px;
+    padding: 0;
   }
 }
 
@@ -168,7 +176,7 @@
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 980px) {
   .container {
     width: 720px;
   }
@@ -183,6 +191,10 @@
 
   .slider-specifications__title {
     font-size: 36px;
+  }
+
+  .owl-nav {
+    padding: 0 42px;
   }
 
   .owl-prev {
@@ -283,6 +295,11 @@
 
   .slider-specifications__container {
     padding: 0 140px;
+  }
+
+  .owl-nav {
+    left: -4px;
+    padding: 0 115px;
   }
 }
 
@@ -418,6 +435,11 @@
       width: 20px;
     }
   }
+
+  .owl-nav {
+    left: -2px;
+    padding: 0 4px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -453,5 +475,13 @@
     img {
       width: 40px;
     }
+  }
+}
+
+@media (max-width: 330px) {
+  .owl-nav {
+    width: 90%;
+    left: 16px;
+    padding: 0;
   }
 }
